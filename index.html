@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="styles.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.155.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.155.0/examples/jsm/"
+      }
+    }
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.0/papaparse.min.js"></script>
+  <script type="module" src="script.js"></script>
+
+  <title>3D Platformer with Three.js</title>
+
+</head>
+
+<body>
+
+  <!-- Your Three.js canvas will be rendered here -->
+  <script type="module" src="script.js"></script>
+
+  <div id="apple-tally">Apples: 0</div>
+
+  <div id="timer">Time: 0</div>
+
+  <div id="apple-stats">
+    <div id="apple-stats-title">Apple Stats</div>
+  </div>
+
+  <div id="game-over">
+    <div id="game-over-title">Course Finished</div>
+    <div id="game-over-time">You completed the course in 0s!</div>
+    <div id="game-over-message">You collected 0 apples</div>
+    <button id="restart-button">Restart</button>
+
+</body>
+
+</html>
